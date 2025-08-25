@@ -1,0 +1,9 @@
+{
+  "name": "bio-engineering",
+  "version": "1.0.0",
+  "title": "Empty mod",
+  "author": "Mr.SmoothieHuman",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0"],
+  "description": "i'll make my own mod! with blackjack! and hookers!"
+}
