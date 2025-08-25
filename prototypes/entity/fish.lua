@@ -79,3 +79,4 @@ data:extend({
 
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["be-iron-fish"] = {}
 data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["be-copper-fish"] = {}
+--test
