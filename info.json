@@ -1,9 +1,9 @@
 {
   "name": "bio-engineering",
   "version": "1.0.0",
-  "title": "Empty mod",
+  "title": "Bio-Engineering",
   "author": "Mr.SmoothieHuman",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": ["base >= 2.0"],
-  "description": "i'll make my own mod! with blackjack! and hookers!"
+  "description": "An overhaul mod focused on the squisher and more biological side of Nauvis. Your factory will be powered off of the mechanical power of nature and not steel."
 }
