@@ -3,10 +3,10 @@ data:extend({
 
     {
     type = "fish",
-    name = "be-iron-fish",
+    name = "bee-iron-fish",
     icon = "__base__/graphics/icons/fish-entity.png",
     flags = {"placeable-neutral", "not-on-map"},
-    minable = {mining_time = 0.4, result = "be-iron-fish", count = 1},
+    minable = {mining_time = 0.4, result = "bee-iron-fish", count = 1},
     --mined_sound = sounds.mine_fish,
     max_health = 20,
     subgroup = "creatures",
@@ -40,10 +40,10 @@ data:extend({
   },
   {
     type = "fish",
-    name = "be-copper-fish",
+    name = "bee-copper-fish",
     icon = "__base__/graphics/icons/fish-entity.png",
     flags = {"placeable-neutral", "not-on-map"},
-    minable = {mining_time = 0.4, result = "be-copper-fish", count = 1},
+    minable = {mining_time = 0.4, result = "bee-copper-fish", count = 1},
     --mined_sound = sounds.mine_fish,
     max_health = 20,
     subgroup = "creatures",
@@ -77,5 +77,5 @@ data:extend({
   },
 })
 
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["be-iron-fish"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["be-copper-fish"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["bee-iron-fish"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["bee-copper-fish"] = {}
