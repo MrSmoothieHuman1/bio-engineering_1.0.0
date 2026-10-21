@@ -1,11 +1,17 @@
 PM = require("pennyisms.library")--[[@as Pennyisms]]
 
+require("prototypes.entity.entity-changes")
 require("prototypes.entity.fish")
+
+require("prototypes.item.fish")
+require("prototypes.item.trees")
+require("prototypes.item.flora")
+
+require("prototypes.recipe.plate-recipes")
 
 require("prototypes.item")
 require("prototypes.recipe")
 
-require("prototypes.recipe.plate-recipes")
 
 data.raw.technology = {}
 
