@@ -4,7 +4,8 @@
 -- tree-03 is a small , wood (green <> red)
 -- 
 
-data.raw["tree"]["tree-01"].map_color = {34, 94, 72, 102}
+data.raw["tree"]["tree-01"].map_color = {34, 94, 72, 170}
+data.raw["tree"]["tree-01"].autoplace.probability_expression = "bee_tree_01"
 data.raw["tree"]["tree-01"].minable.results =
 {
     PM.product("bee-softwood"):amount(3):done(),
@@ -20,7 +21,7 @@ data.raw["tree"]["tree-03"].factoriopedia_alternative = nil
 data.raw["tree"]["tree-03"].map_color = {86, 100, 48, 102}
 
 data.raw["tree"]["tree-04"].factoriopedia_alternative = nil
-data.raw["tree"]["tree-04"].map_color = {48, 93, 100, 102}
+data.raw["tree"]["tree-04"].map_color = {48, 65, 100, 102}
 
 data.raw["tree"]["tree-05"].factoriopedia_alternative = nil
 

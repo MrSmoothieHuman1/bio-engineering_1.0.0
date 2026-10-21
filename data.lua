@@ -2,6 +2,7 @@ PM = require("pennyisms.library")--[[@as Pennyisms]]
 
 require("prototypes.entity.entity-changes")
 require("prototypes.entity.fish")
+require("prototypes.entity.noise-expressions")
 
 require("prototypes.item.fish")
 require("prototypes.item.trees")
