@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "bee-iron-fish-scales",
-        energy_required = 1,
+        energy_required = 4,
         main_product = "bee-iron-fish-scales",
         ingredients =
         {
@@ -17,7 +17,7 @@ data:extend({
     {
         type = "recipe",
         name = "bee-copper-fish-scales",
-        energy_required = 1,
+        energy_required = 4,
         main_product = "bee-copper-fish-scales",
         ingredients =
         {
