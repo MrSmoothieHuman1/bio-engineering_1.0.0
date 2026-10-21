@@ -12,14 +12,14 @@ data:extend({
         type = "item",
         name = "bee-softwood",
         icon_size = 64,
-        icon = "__base__/graphics/icons/softwood.png",
+        icon = "__bio-engineering__/graphics/icons/softwood.png",
         stack_size = 150
     },
     {
         type = "item",
         name = "bee-hardwood",
         icon_size = 64,
-        icon = "__base__/graphics/icons/hardwood.png",
+        icon = "__bio-engineering__/graphics/icons/hardwood.png",
         stack_size = 150
     },
 })
