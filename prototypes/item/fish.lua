@@ -12,6 +12,7 @@ data:extend({
                 value = {"bee-scientific-name.bee-iron-fish"}
             }
         },
+        localised_description = {"entity-description.bee-iron-fish"},
         stack_size = 100
     },
     {
@@ -19,6 +20,14 @@ data:extend({
         name = "bee-copper-fish",
         icon_size = 64,
         icon = "__base__/graphics/icons/fish.png",
+        custom_tooltip_fields =
+        {
+            {
+                name = {"bee-scientific-name.header"},
+                value = {"bee-scientific-name.bee-copper-fish"}
+            }
+        },
+        localised_description = {"entity-description.bee-copper-fish"},
         stack_size = 100
     },
     {

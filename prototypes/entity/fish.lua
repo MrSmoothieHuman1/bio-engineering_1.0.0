@@ -8,6 +8,13 @@ data:extend({
     flags = {"placeable-neutral", "not-on-map"},
     minable = {mining_time = 0.4, result = "bee-iron-fish", count = 1},
     --mined_sound = sounds.mine_fish,
+    custom_tooltip_fields =
+    {
+        {
+            name = {"bee-scientific-name.header"},
+            value = {"bee-scientific-name.bee-iron-fish"}
+        }
+    },
     max_health = 20,
     subgroup = "creatures",
     order = "b-a",
@@ -45,6 +52,13 @@ data:extend({
     flags = {"placeable-neutral", "not-on-map"},
     minable = {mining_time = 0.4, result = "bee-copper-fish", count = 1},
     --mined_sound = sounds.mine_fish,
+    custom_tooltip_fields =
+    {
+        {
+            name = {"bee-scientific-name.header"},
+            value = {"bee-scientific-name.bee-copper-fish"}
+        }
+    },
     max_health = 20,
     subgroup = "creatures",
     order = "b-a",
