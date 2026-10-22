@@ -18,7 +18,7 @@ data.raw["tree"]["tree-01"].custom_tooltip_fields =
 data.raw["tree"]["tree-01"].minable.results =
 {
     PM.product("bee-softwood"):amount(3):done(),
-    PM.product("bee-leaves"):amount(2, 8):done()
+    PM.product("bee-leaves"):amount(2, 6):done()
 }
 
 data.raw["tree"]["tree-02"].localised_name = nil
@@ -30,6 +30,11 @@ data.raw["tree"]["tree-02"].custom_tooltip_fields =
         name = {"bee-scientific-name.header"},
         value = {"bee-scientific-name.bee-evergreen"}
     },
+}
+data.raw["tree"]["tree-02"].minable.results =
+{
+    PM.product("bee-softwood"):amount(4, 5):done(),
+    PM.product("bee-leaves"):amount(3, 8):done()
 }
 
 data.raw["tree"]["tree-02-red"].localised_name = nil
@@ -43,6 +48,11 @@ data.raw["tree"]["tree-02-red"].custom_tooltip_fields =
         value = {"bee-scientific-name.bee-everbrown"}
     },
 }
+data.raw["tree"]["tree-02-red"].minable.results =
+{
+    PM.product("bee-softwood"):amount(4, 5):done(),
+    PM.product("bee-leaves"):amount(3, 7):done()
+}
 
 data.raw["tree"]["tree-03"].localised_name = nil
 data.raw["tree"]["tree-03"].localised_description = nil
@@ -55,6 +65,11 @@ data.raw["tree"]["tree-03"].custom_tooltip_fields =
         value = {"bee-scientific-name.bee-mixleaf"}
     },
 }
+data.raw["tree"]["tree-03"].minable.results =
+{
+    PM.product("bee-hardwood"):amount(2):done(),
+    PM.product("bee-leaves"):amount(2, 4):done()
+}
 
 data.raw["tree"]["tree-04"].localised_name = nil
 data.raw["tree"]["tree-04"].localised_description = nil
@@ -64,8 +79,13 @@ data.raw["tree"]["tree-04"].custom_tooltip_fields =
 {
     {
         name = {"bee-scientific-name.header"},
-        value = {"bee-scientific-name.bee-cyalem"}
+        value = {"bee-scientific-name.bee-cyaelm"}
     },
+}
+data.raw["tree"]["tree-04"].minable.results =
+{
+    PM.product("bee-hardwood"):amount(2, 3):done(),
+    PM.product("bee-leaves"):amount(2, 6):done()
 }
 
 data.raw["tree"]["tree-05"].localised_name = nil
@@ -77,6 +97,11 @@ data.raw["tree"]["tree-05"].custom_tooltip_fields =
         name = {"bee-scientific-name.header"},
         value = {"bee-scientific-name.bee-minlime"}
     },
+}
+data.raw["tree"]["tree-05"].minable.results =
+{
+    PM.product("bee-softwood"):amount(1, 3):done(),
+    PM.product("bee-leaves"):amount(2, 4):done()
 }
 
 data.raw["tree"]["tree-07"].localised_name = nil
@@ -90,6 +115,11 @@ data.raw["tree"]["tree-07"].custom_tooltip_fields =
         value = {"bee-scientific-name.bee-citruash"}
     },
 }
+data.raw["tree"]["tree-07"].minable.results =
+{
+    PM.product("bee-hardwood"):amount(2, 4):done(),
+    PM.product("bee-leaves"):amount(3, 6):done()
+}
 
 data.raw["tree"]["tree-08"].localised_name = nil
 data.raw["tree"]["tree-08"].localised_description = nil
@@ -100,6 +130,11 @@ data.raw["tree"]["tree-08"].custom_tooltip_fields =
         name = {"bee-scientific-name.header"},
         value = {"bee-scientific-name.bee-taedap"}
     },
+}
+data.raw["tree"]["tree-08"].minable.results =
+{
+    PM.product("bee-softwood"):amount(3):done(),
+    PM.product("bee-leaves"):amount(3, 5):done()
 }
 
 data.raw["tree"]["tree-08-brown"].localised_name = nil
@@ -113,6 +148,11 @@ data.raw["tree"]["tree-08-brown"].custom_tooltip_fields =
         value = {"bee-scientific-name.bee-brown-taedap"}
     },
 }
+data.raw["tree"]["tree-08-brown"].minable.results =
+{
+    PM.product("bee-softwood"):amount(3, 4):done(),
+    PM.product("bee-leaves"):amount(3, 5):done()
+}
 
 data.raw["tree"]["tree-08-red"].localised_name = nil
 data.raw["tree"]["tree-08-red"].localised_description = nil
@@ -124,6 +164,11 @@ data.raw["tree"]["tree-08-red"].custom_tooltip_fields =
         name = {"bee-scientific-name.header"},
         value = {"bee-scientific-name.bee-burgundy-taedap"}
     },
+}
+data.raw["tree"]["tree-08-red"].minable.results =
+{
+    PM.product("bee-softwood"):amount(4):done(),
+    PM.product("bee-leaves"):amount(2, 5):done()
 }
 
 data.raw["tree"]["tree-09"].localised_name = nil
@@ -137,6 +182,11 @@ data.raw["tree"]["tree-09"].custom_tooltip_fields =
         value = {"bee-scientific-name.bee-bigtrunk"}
     },
 }
+data.raw["tree"]["tree-09"].minable.results =
+{
+    PM.product("bee-hardwood"):amount(4, 5):done(),
+    PM.product("bee-leaves"):amount(2, 6):done()
+}
 
 data.raw["tree"]["tree-09-brown"].localised_name = nil
 data.raw["tree"]["tree-09-brown"].localised_description = nil
@@ -148,6 +198,11 @@ data.raw["tree"]["tree-09-brown"].custom_tooltip_fields =
         name = {"bee-scientific-name.header"},
         value = {"bee-scientific-name.bee-brown-bigtrunk"}
     },
+}
+data.raw["tree"]["tree-09-brown"].minable.results =
+{
+    PM.product("bee-hardwood"):amount(6):done(),
+    PM.product("bee-leaves"):amount(2, 5):done()
 }
 
 data.raw["tree"]["tree-09-red"].localised_name = nil
