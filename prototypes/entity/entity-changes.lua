@@ -21,7 +21,7 @@ data.raw["tree"]["tree-03"].factoriopedia_alternative = nil
 data.raw["tree"]["tree-03"].map_color = {86, 100, 48, 102}
 
 data.raw["tree"]["tree-04"].factoriopedia_alternative = nil
-data.raw["tree"]["tree-04"].map_color = {48, 65, 100, 102}
+data.raw["tree"]["tree-04"].map_color = {51, 84, 105, 102}
 
 data.raw["tree"]["tree-05"].factoriopedia_alternative = nil
 

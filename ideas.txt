@@ -5,3 +5,4 @@ so i can store my ideas somewhere i can always access:
 * unique starts depending on what biome you start in
 * fish roe
 * different water tiles for different sea creatures
+* split technology tree, one side biological processes the other mechanical/technological

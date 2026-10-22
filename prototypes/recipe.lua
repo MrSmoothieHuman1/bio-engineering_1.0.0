@@ -30,3 +30,5 @@ data:extend({
         },
     },
 })
+
+data.raw["recipe"]["burner-mining-drill"].enabled = false

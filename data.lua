@@ -7,6 +7,7 @@ require("prototypes.entity.noise-expressions")
 require("prototypes.item.fish")
 require("prototypes.item.trees")
 require("prototypes.item.flora")
+require("prototypes.item.insects")
 
 require("prototypes.recipe.plate-recipes")
 
